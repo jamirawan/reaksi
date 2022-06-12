@@ -1,2 +1,2 @@
 # JS with React, Node, Loopback, Redux and Material-UI
-Building calculation, blog and chat app
+Javascript with REACT, NODE JS, REUX and MATERIAL UI
