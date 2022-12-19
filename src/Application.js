@@ -6,7 +6,7 @@ class Application extends Component {
 
 		return (
 			<div>
-				<h1>Nasi </h1> 
+				<h1>Nasi Goreng </h1> 
 				<h2>campur</h2>
 			</div>
 			);
