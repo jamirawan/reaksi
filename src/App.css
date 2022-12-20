@@ -7,8 +7,13 @@ body {
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 200px;
+  width:200px;
   pointer-events: none;
+  background-color:#9a5400;
+  border-radius: 9999px;
+  border: 1px solid yellow;
+  margin-top:20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
