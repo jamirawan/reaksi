@@ -1,4 +1,4 @@
-import Navbar from './components/Navbar.js';
+import Nav from './components/Nav.js';
 import Promo from './components/Promo.js';
 import Intro1 from './components/Intro1.js';
 import Footer from './components/Footer.js';
@@ -15,13 +15,13 @@ function App() {
   return (
     <div className="App">
     <img src={logo} className="App-logo" alt="logo" />
+    <Nav />
     <Heading />
-    <Navbar />
     <Promo />
     <Intro1 />
     <Intro2 />
     <Intro3 />
-     <Footer />
+    <Footer />
 
     </div>
   
