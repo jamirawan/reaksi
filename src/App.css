@@ -45,3 +45,9 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.copyright {
+  background: white;
+  height: 2rem;
+  padding: 1em;
+}

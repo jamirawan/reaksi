@@ -1,4 +1,4 @@
-import Nav from './components/Nav.js';
+import Navbar from './components/Navbar.js';
 import Promo from './components/Promo.js';
 import Intro1 from './components/Intro1.js';
 import Footer from './components/Footer.js';
@@ -8,15 +8,15 @@ import Heading from './components/Heading.js';
 import logo from './logo.svg';
 
 import './App.css';
+import React from 'react';
 
 
-
- function App() {
+function App() {
   return (
     <div className="App">
     <img src={logo} className="App-logo" alt="logo" />
     <Heading />
-    <Nav />
+    <Navbar />
     <Promo />
     <Intro1 />
     <Intro2 />
@@ -28,4 +28,4 @@ import './App.css';
     );
  }
 
- export default App;
+export default App;
