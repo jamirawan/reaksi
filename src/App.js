@@ -5,7 +5,7 @@ import Footer from './components/Footer.js';
 import Intro2 from './components/Intro2.js';
 import Intro3 from './components/Intro3.js';
 import Heading from './components/Heading.js';
-import logo from './logo.svg';
+import logo from './irawan.svg';
 
 import './App.css';
 import React from 'react';
