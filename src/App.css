@@ -81,6 +81,9 @@ h1, h2, h3 {
   text-shadow: 1px 1px 2px black;
 
 }
+.navigation-menu.expanded {
+  background-color: red;
+}
 .navigation-menu {
   margin-left: auto;
 }
@@ -100,6 +103,14 @@ h1, h2, h3 {
   color: white;
   font-weight: 700;
   text-shadow: 1px 1px 2px black;
+}
+.navigation-menu.expanded li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: black;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px yellow;
 }
 @media screen and (max-width: 768px) {
   .navigation-menu ul {
