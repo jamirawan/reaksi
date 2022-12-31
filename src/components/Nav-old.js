@@ -1,22 +1,12 @@
-import { useState } from "react"
-import "../App.css"
-
-export default function Navbar() {
-  const [isNavExpanded, setIsNavExpanded] = useState(false)
-
-  return (
-    <nav className="navigation">
+function Nav() {
+    return (
+        <nav className="navigation">
       <a href="/" className="brand-name">
-        iraWan
+        Irawan
       </a>
-      <button
-        className="hamburger"
-        onClick={() => {
-          setIsNavExpanded(!isNavExpanded)
-        }}
-      >
-        {/* hamburger svg code... */}
-      <svg
+      <button className="hamburger">
+        {/* icon from heroicons.com */}
+        <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"
           viewBox="0 0 20 20"
@@ -30,10 +20,7 @@ export default function Navbar() {
         </svg>
       </button>
       <div
-        className={
-          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
-        }
-      >
+        className="navigation-menu">
         <ul>
           <li>
             <a href="/home">Home</a>
@@ -47,5 +34,26 @@ export default function Navbar() {
         </ul>
       </div>
     </nav>
-  );
+    );
+};
+
+export default Nav;
+
+// The hamburger menu function 
+import { useState } from "react;
+import "./App.css";
+export default function Navbar(){
+  const [isNavExpanded, setIsNavExpanded] = useState(false)
+
+  return (
+    <nav className="navigation">
+      <a href="/" className="brand-name">
+        MacroSoft
+      </a>
+      <button className="hamburger" >
+        {/* hamburger svg code... */}
+      </button>
+      {/* nav menu code... */}
+    </nav>
+  )
 }

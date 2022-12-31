@@ -77,7 +77,9 @@ h1, h2, h3 {
   text-decoration: none;
   color: whitesmoke;
   font-size: 2rem;
-  margin-left: 1rem;
+  margin-left: 3rem;
+  text-shadow: 1px 1px 2px black;
+
 }
 .navigation-menu {
   margin-left: auto;
@@ -85,6 +87,7 @@ h1, h2, h3 {
 .navigation-menu ul {
   display: flex;
   padding: 0;
+  padding-right: 3rem;
 }
 .navigation-menu li {
   list-style-type: none;
@@ -94,6 +97,9 @@ h1, h2, h3 {
   text-decoration: none;
   display: block;
   width: 100%;
+  color: white;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px black;
 }
 @media screen and (max-width: 768px) {
   .navigation-menu ul {
