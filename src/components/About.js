@@ -1,4 +1,4 @@
-function Intro1() {
+function About() {
     return (
         <div className="blog-post-intro">
             <h2>About me</h2>
@@ -18,4 +18,4 @@ function Intro1() {
     );
 };
 
-export default Intro1;
+export default About;
