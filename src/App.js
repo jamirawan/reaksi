@@ -1,31 +1,25 @@
-import Nav from './components/Nav.js';
-import Promo from './components/Promo.js';
-import About from './components/About.js';
-import Footer from './components/Footer.js';
-import Portfolio from './components/Portfolio.js';
-import Intro3 from './components/Intro3.js';
-import Heading from './components/Heading.js';
-import logo from './irawan.svg';
-
+import logo from './logo.svg';
 import './App.css';
-import React from 'react';
-
 
 function App() {
   return (
     <div className="App">
-    <img src={logo} className="App-logo" alt="logo" />
-    <Nav />
-    <Heading />
-    <Promo />
-    <About />
-    <Portfolio />
-    <Intro3 />
-    <Footer />
-
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Reaksi dasar kurang kerjaan putar putar.
+        </p>
+        <a
+          className="App-link"
+          href="https://irawan.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Websiteku
+        </a>
+      </header>
     </div>
-  
-    );
- }
+  );
+}
 
 export default App;
